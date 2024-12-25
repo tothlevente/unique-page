@@ -1,6 +1,6 @@
 # Unique page 🌎
 
-You this template to create your personal page.
+Use this template to create your personal page.
 
 ## Available scripts:
 
