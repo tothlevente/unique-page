@@ -1,13 +1,13 @@
 import RepositoryProps from "@/interfaces/RepositoryProps";
-import IsTemplate from "../is-template";
-import CreatedAt from "../created-at";
-import UpdatedAt from "../updated-at";
-import Github from "../icons/github";
-import Globe from "../icons/globe";
-import Topics from "../topics";
+import Github from "../../assets/icons/github";
+import Globe from "../../assets/icons/globe";
+import IsTemplate from "./badges/IsTemplate";
+import IsArchived from "./badges/IsArchived";
+import CreatedAt from "./dates/CreatedAt";
+import UpdatedAt from "./dates/UpdatedAt";
+import Topics from "./badges/Topics";
 
 import { Button } from "@/components/ui/button";
-import IsArchived from "../is-archived";
 
 export default function Repositories({
   repositories,

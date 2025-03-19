@@ -1,5 +1,5 @@
 import IntroducingProps from "@/interfaces/IntroducingProps";
-import Github from "../icons/github";
+import Github from "../../assets/icons/github";
 
 import { Button } from "@/components/ui/button";
 

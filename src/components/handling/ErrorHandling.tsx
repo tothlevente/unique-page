@@ -1,4 +1,4 @@
-import ErrorCircle from "./icons/error-circle";
+import ErrorCircle from "../../assets/icons/error-circle";
 
 export default function ErrorHandling() {
   return (

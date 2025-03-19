@@ -1,6 +1,6 @@
 import packageJson from "package.json";
 
-import ExternalLink from "../icons/external-link";
+import ExternalLink from "../../assets/icons/external-link";
 
 import { Button } from "../ui/button";
 
