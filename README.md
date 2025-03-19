@@ -8,7 +8,7 @@ To use your page, you will need to follow these steps:
 
 1. Fork or download the unique-page repository.
 2. Open the `.env` file.
-3. Complete a `VITE_LICENSE`, `VITE_REPOSITORY` and `VITE_API_PATH` environment variables.
+3. Complete a `VITE_LICENSE`, `VITE_REPOSITORY` and `VITE_GITHUB_API_PATH` environment variables.
 
 - `VITE_LICENSE` -> The place of your page license.
   Something similar looks like this: https://github.com/yourusername/page/blob/main/LICENSE
@@ -16,13 +16,13 @@ To use your page, you will need to follow these steps:
 - `VITE_REPOSITORY` -> The place of your page repository.
   Something similar looks like this: https://github.com/yourusername/page
 
-- `VITE_API_PATH` -> Your api path.
+- `VITE_GITHUB_API_PATH` -> Your GitHub api path.
   Something similar looks like this: https://api.github.com/users/yourusername
 
 4. Create a `.env.local` file.
 5. Create a `VITE_TOKEN` environment variable.
 
-- `VITE_API_PATH` -> Your unique access token.
+- `VITE_TOKEN` -> Your unique access token.
 
 That's it! Now you can use your page! 🎉
 
