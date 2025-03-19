@@ -4,13 +4,13 @@ import RepositoryProps from "@/interfaces/RepositoryProps";
 import { atom } from "jotai";
 
 /**
- * The base path for the API, retrieved from the environment variable `VITE_API_PATH`.
+ * The base path for the API, retrieved from the environment variable `VITE_GITHUB_API_PATH`.
  * This value is injected at build time using Vite's `import.meta.env` mechanism.
  *
  * @constant
  * @type {string | undefined}
  */
-const API_PATH = import.meta.env.VITE_API_PATH;
+const API_PATH = import.meta.env.VITE_GITHUB_API_PATH;
 
 /**
  * The `TOKEN` constant retrieves the value of the `VITE_TOKEN` environment variable
@@ -35,7 +35,9 @@ const TOKEN = import.meta.env.VITE_TOKEN;
  */
 export const introducingData = atom(async () => {
   if (!API_PATH || !TOKEN) {
-    throw new Error("API_PATH or TOKEN is not defined");
+    throw new Error(
+      "API_PATH or TOKEN is not defined. Did you manages the .env.local and .env files? Did you add the VITE_GITHUB_API_PATH and VITE_TOKEN variables?"
+    );
   }
 
   const response = await fetch(API_PATH, {
@@ -61,7 +63,9 @@ export const introducingData = atom(async () => {
  */
 export const repositoriesData = atom(async () => {
   if (!API_PATH || !TOKEN) {
-    throw new Error("API_PATH or TOKEN is not defined");
+    throw new Error(
+      "API_PATH or TOKEN is not defined. Did you manages the .env.local and .env files? Did you add the VITE_GITHUB_API_PATH and VITE_TOKEN variables?"
+    );
   }
 
   const response = await fetch(API_PATH + "/repos", {
