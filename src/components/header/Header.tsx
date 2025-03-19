@@ -1,4 +1,4 @@
-import { ModeToggle } from "../mode-toggle";
+import { ModeToggle } from "../theme/ModeToggle";
 
 export default function Header() {
   return (
