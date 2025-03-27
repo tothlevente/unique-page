@@ -1,6 +1,6 @@
 # Unique page 🌎
 
-Use this template to create your personal page.
+Want a simple and effective way to present your GitHub profile online? This user-friendly template that automatically creates a personal website using your GitHub data. No more manual coding or complex setups. This project dynamically pulls your username, bio, and repositories, providing a clean and professional showcase of your work. Ideal for developers, designers, and anyone looking to highlight their GitHub activity. Get your personal website up and running in minutes.
 
 ## Setup guide:
 
@@ -47,13 +47,13 @@ In the project directory, you can run:
 - [Jotai](https://jotai.org/)
 - [Shadcn UI](https://ui.shadcn.com/)
 - [Lucide Icons](https://lucide.dev)
-- [Google Fonts](https://fonts.google.com/specimen/Josefin+Sans)
-- [Josefin Sans Font](https://github.com/googlefonts/josefinsans)
+- [Josefin Sans (Google Fonts)](https://fonts.google.com/specimen/Josefin+Sans)
+- [Josefin Sans Font (GitHub)](https://github.com/googlefonts/josefinsans)
 - [React error boundary](https://www.npmjs.com/package/react-error-boundary)
 
 ## License:
 
-- This project is licensed under MIT.
-- The used font is licensed under the SIL Open Font License, Version 1.1.
+- This project is licensed under [MIT](https://github.com/tothlevente/unique-page/blob/main/LICENSE).
+- The used font is licensed under the [SIL Open Font License, Version 1.1](https://fonts.google.com/specimen/Josefin+Sans/license).
 
 For more information please visit the license files.
