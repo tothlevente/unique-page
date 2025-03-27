@@ -1,6 +1,6 @@
 # Unique page 🌎
 
-Want a simple and effective way to present your GitHub profile online? This user-friendly template that automatically creates a personal website using your GitHub data. No more manual coding or complex setups! This project dynamically pulls your username, bio, and repositories, providing a clean and professional showcase of your work. Ideal for developers, designers, and anyone looking to highlight their GitHub activity. Get your personal website up and running in minutes!
+Want a simple and effective way to present your GitHub profile online? This user-friendly template that automatically creates a personal website using your GitHub data. No more manual coding or complex setups. This project dynamically pulls your username, bio, and repositories, providing a clean and professional showcase of your work. Ideal for developers, designers, and anyone looking to highlight their GitHub activity. Get your personal website up and running in minutes.
 
 ## Setup guide:
 
